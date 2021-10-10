@@ -1,0 +1,95 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: #555555;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container h1 {
+    color: white;
+}
+.container p {
+    color: white;
+}
+.container-conteudo{
+    margin: auto auto auto auto;
+    width: 694px;
+    height: 466px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.container-conteudo input{
+    width: 40px;
+    height: 26px;
+    background-color: #444144;
+    padding: 0;
+    color: #FFF;
+    border-color: black;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 2px;
+    box-shadow: 0 0 5px #000000CC;
+}
+
+#inp-top-left {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+#inp-top-right {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+#inp-bottom-left {
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+}
+
+#inp-bottom-right {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+
+.conteudo {
+    width: 600px;
+    height: 400px;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid 1px #444144;
+    border-radius: 2px;
+    box-shadow: 0 0 20px #000000CC;
+}
+
+.forma {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(27, 27, 27);
+    box-shadow: 0 0 20px #2e2d2ea4;
+}
+
+.botoes{
+    margin: auto auto auto auto;
+    width: 500px;
+    text-align: center;
+}
+
+
