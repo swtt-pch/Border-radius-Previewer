@@ -165,7 +165,7 @@ function copiarCSS3() {
     if (document.getElementById("inp-extra-bottom-right").value.length == 0 || document.getElementById("inp-extra-bottom-right").value == 0) {
         cssText += `border-bottom-right-radius: ${bottom_right};\n`
     } else {
-        cssText += `border-bottom-right-radius: ${extra_bottom_right} ${bottom_right};\n`
+        cssText += `border-bottom-right-radius: ${bottom_right} ${extra_bottom_right};\n`
     }
     if (document.getElementById("inp-extra-top-left").value.length == 0 || document.getElementById("inp-extra-top-left").value == 0) {
         cssText += `border-top-left-radius: ${top_left};\n`
@@ -190,7 +190,7 @@ function copiarWebKit() {
     if (document.getElementById("inp-extra-bottom-right").value.length == 0 || document.getElementById("inp-extra-bottom-right").value == 0) {
         webkitText += `-webkit-border-bottom-right-radius: ${bottom_right};\n`
     } else {
-        webkitText += `-webkit-border-bottom-right-radius: ${extra_bottom_right} ${bottom_right};\n`
+        webkitText += `-webkit-border-bottom-right-radius: ${bottom_right}  ${extra_bottom_right};\n`
     }
     if (document.getElementById("inp-extra-top-left").value.length == 0 || document.getElementById("inp-extra-top-left").value == 0) {
         webkitText += `-webkit-border-top-left-radius: ${top_left};\n`
@@ -216,7 +216,7 @@ function copiarGecko() {
     if (document.getElementById("inp-extra-bottom-right").value.length == 0 || document.getElementById("inp-extra-bottom-right").value == 0) {
         geckoText += `-moz-border-radius-bottomright: ${bottom_right};\n`
     } else {
-        geckoText += `-moz-border-radius-bottomright: ${extra_bottom_right} ${bottom_right};\n`
+        geckoText += `-moz-border-radius-bottomright: ${bottom_right} ${extra_bottom_right};\n`
     }
     if (document.getElementById("inp-extra-top-left").value.length == 0 || document.getElementById("inp-extra-top-left").value == 0) {
         geckoText += `-moz-border-radius-topleft: ${top_left};\n`
