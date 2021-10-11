@@ -13,14 +13,18 @@
         <h1>Border-radius-Previewer</h1>
         <p>Border-radius Previewer mostra para o usuário as alterações nas propriedades da borda conforme ele for alterando.</p>
         <div class="container-conteudo">
-            <input type="text" name="inp-top-left" id="inp-top-left" onchange="topLeft(this.value)">
-            <input type="text" name="inp-top-right" id="inp-top-right" onchange="topRight(this.value)">
+            <input type="text" name="inp-top-left" id="inp-top-left" value="0" onchange="topLeft(this.value)">
+            <input type="text" name="inp-extra-top-left" id="inp-extra-top-left" value="0" onchange="extraTopLeft(this.value)">
+            <input type="text" name="inp-top-right" id="inp-top-right" value="0" onchange="topRight(this.value)">
+            <input type="text" name="inp-extra-top-right" id="inp-extra-top-right" value="0" onchange="extraTopRight(this.value)">
             <div class="conteudo">
                 <div class="forma" id="div-shape">
                 </div>
             </div>
-            <input type="text" name="inp-bottom-left" id="inp-bottom-left" onchange="bottomRight(this.value)">
-            <input type="text" name="inp-bottom-right" id="inp-bottom-right" onchange="bottomLeft(this.value)">
+            <input type="text" name="inp-bottom-left" id="inp-bottom-left" value="0" onchange="bottomLeft(this.value)">
+            <input type="text" name="inp-extra-bottom-left" id="inp-extra-bottom-left" value="0" onchange="extraBottomLeft(this.value)">
+            <input type="text" name="inp-bottom-right" id="inp-bottom-right" value="0" onchange="bottomRight(this.value)">
+            <input type="text" name="inp-extra-bottom-right" id="inp-extra-bottom-right" value="0" onchange="extraBottomRight(this.value)">
 
         </div>
 
